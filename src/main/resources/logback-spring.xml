@@ -8,10 +8,6 @@
 		source="info.app.version" />
 	<appender name="stdout"
 		class="ch.qos.logback.core.ConsoleAppender">
-		<!-- <encoder class="net.logstash.logback.encoder.LogstashEncoder">
-			<includeMdcKeyName>traceId</includeMdcKeyName>
-			<includeMdcKeyName>spanId</includeMdcKeyName>
-		</encoder> -->
 		<encoder
 			class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">
 			<providers>
